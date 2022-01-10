@@ -91,11 +91,11 @@
                                 <div id="quick-contact-app" class="form-wrap flex-form">
                                     <a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
 
-                                    <form name="frmQuickContact" method="POST" action="cm">
+                                    <form name="frmQuickContact" method="POST" action="contact">
                                         @csrf
                                         <div style="display:none;" class="form_status alert mb"></div>
 
-                                        <input type="hidden" name="phone_number" value=""/>
+  <                                      input type="hidden" name="phone_number" value=""/>
                                         <input type="hidden" name="phone_extension" value=""/>
                                         <input type="hidden" name="phone_valid" value=""/>
 

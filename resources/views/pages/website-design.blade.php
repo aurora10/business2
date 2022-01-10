@@ -58,6 +58,7 @@
             </div>
         </section>
 
+@include('partials.completed-projects-wd')
 
         <section class="cta-section bg-red-gradient overlay-color-pattern color-white">
             <div class="container">
@@ -91,7 +92,7 @@
                                 <div id="quick-contact-app" class="form-wrap flex-form">
                                     <a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
 
-                                    <form name="frmQuickContact" method="POST" action="wd">
+                                    <form name="frmQuickContact" method="POST" action="contact">
                                         @csrf
                                         <div style="display:none;" class="form_status alert mb"></div>
 
@@ -135,6 +136,8 @@
                 </div>
             </div>
         </section>
+
+       
 
     </section>
     @include('partials.footer')

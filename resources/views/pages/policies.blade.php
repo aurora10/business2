@@ -13,9 +13,9 @@
 		<div class="row mb-big">
 			<div class="col-md-10 col-md-offset-1">
 				<h2 class="text-center"></h2>
-				<div class="textbox text-center big"><p>Businessware Technologies Inc. is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this Website, then you can be assured that it will only be used in accordance with this privacy statement.</p>
+				<div class="textbox text-center big"><p>Marketorix Technologies Inc. is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this Website, then you can be assured that it will only be used in accordance with this privacy statement.</p>
 
-<p>Businessware Technologies may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.</p>
+<p>Marketorix Technologies may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.</p>
 </div>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 	<li>&quot;Automatically collected&quot; information.</li>
 </ul>
 
-<p>Please note that Businessware Technologies is the Data Controller of your Personal Data. The principles set out in this Privacy Policy apply to all instances in which Businessware Technologies receives your Personal Data as a Data Controller for the purposes described in this notice. Those purposes are processing of data in order to participate in the various activities available on this website or as mentioned below.</p>
+<p>Please note that Marketorix Technologies is the Data Controller of your Personal Data. The principles set out in this Privacy Policy apply to all instances in which Marketorix Technologies receives your Personal Data as a Data Controller for the purposes described in this notice. Those purposes are processing of data in order to participate in the various activities available on this website or as mentioned below.</p>
 
 <p><strong>User-provided information</strong></p>
 

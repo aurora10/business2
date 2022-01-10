@@ -7,7 +7,7 @@
 <body>
 @include('partials.menu')
 
-<section class="internal-header bg-red-gradient overlay-color-pattern color-white">
+<section class="internal-header bg-red-gradient  color-white" >
 	<div class="container">
 		<h1>About us</h1>
 	</div>

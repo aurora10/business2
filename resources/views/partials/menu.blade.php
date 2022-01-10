@@ -16,7 +16,7 @@
 
 				<div class="navbar-header">
 
-					<a href="{{URL::to('/')}}" title="Home"  class="navbar-brand "><img  class=""  src="{{asset('files/user/bwt_logo_left-white-(1).svg')}}" alt="Home" /></a>
+					<a href="{{URL::to('/')}}" title="Home"  class="navbar-brand "><img  src="{{asset('files/user/SVG.svg')}}" alt="Home" /></a>
 					<button id="mobile_nav_btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target-custom="#navigation">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="fa fa-bars fa-lg"></span>
@@ -31,7 +31,7 @@
 			<div id="top-nav" class="top-section">
 				<div class="container">
 					<div class="menu-search-form">
-	<form class="navbar-form" id="top-search" name="frmSearch" method="GET" action="https://www.businesswaretech.com/search-results">
+	<form class="navbar-form" id="top-search" name="frmSearch" method="GET" action="https://www.Marketorixtech.com/search-results">
 		<input name="sstr" type="text" placeholder="Search" title="Search" />
 		<button class="btn-toggle" type="button"><span class="fa fa-search"></span></button>
 		<button class="btn-close" type="button"><span class="fa fa-close"></span></button>
@@ -71,9 +71,9 @@
 </script>
 					<div class="phone-block"><a   class=""  href="tel:+1-512-782-9977"><span class="fa fa-phone"></span>+1-512-782-9977</a></div>
 					<div class="social-block">
-						<a   title="LinkedIn" class=""  target="_blank"  href="https://www.linkedin.com/company/2219819/"><span class="fa fa-linkedin-square"></span></a>
-						<a   title="Facebook" class=""  target="_blank"  href="https://www.facebook.com/businesswaretechnologies/"><span class="fa fa-facebook-square"></span></a>
-						<a   title="YouTube" class=""  target="_blank"  href="https://www.youtube.com/channel/UCPdE5ABzi1HyvPNF1iMB43Q?view_as=subscriber"><span class="fa fa-youtube"></span></a>
+						<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>
+						<a   title="Facebook" class=""  target="_blank"  href=""><span class="fa fa-facebook-square"></span></a>
+						<a   title="YouTube" class=""  target="_blank"  href=""><span class="fa fa-youtube"></span></a>
 					</div>
 				</div>
 			</div>

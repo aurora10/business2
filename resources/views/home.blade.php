@@ -21,7 +21,7 @@
 			<div class="col-md-11 col-md-offset-0 col-sm-10 col-sm-offset-1">
 				<h1>We Build Better Apps</h1>
 				<div class="textbox big">A full-cycle software development company with focus on speed and quality. <br>We give our customers an unfair advantage.</div>
-				<div><a   class="btn btn-white"  href="{{url('/case-studies')}}">See Case Studies</a></div>
+				<div><a   class="btn btn-white"  href="{{url('/portfolio')}}">See Case Studies</a></div>
 			</div>
 
 
@@ -284,7 +284,7 @@ Our core values are <br>high quality, transparency and effective communication.
 <div id="quick-contact-app" class="form-wrap flex-form">
 	<a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
 	
-	<form  method="POST" action="/">
+	<form  method="POST" action="contact">
 	@csrf
 		<div style="display:none;" class="form_status alert mb"></div>
 		<div class="row mb">

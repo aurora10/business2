@@ -1,14 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Route;
 use Illuminate\Http\Request;
 use Mail;
 
 class ContactController extends Controller
 {
-    public function contact(){
-        return view('pages.contact');
+    public function contact(Request $request){
+        $uri = Route::current()->uri;
+        $view = 'pages.'. $uri;
+       
+        return view($view);
     }
 
     public function contactPost(Request $request){
@@ -18,12 +21,13 @@ class ContactController extends Controller
                         
                         'comment' => 'required'
                 ]);
-
+       $uri = Route::current()->uri;
         Mail::send('pages.email', [
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
                 'phone' => $request->get('phone'),
-                'comment' => $request->get('comment') ],
+                'comment' => $request->get('comment'),
+                'uri' => $uri],
                 function ($message) {
                         $message->from('r.zimerman@marketorix.be');
                         $message->to('aurora10@gmail.com', 'Your Name')

@@ -51,9 +51,9 @@ Route::get('/website-design', function () {
     return view('pages/website-design');
 });
 
-// Route::get('/portfolio', function () {
-//     return view('pages/portfolio');
-// });
+Route::get('/portfolio', function () {
+    return view('pages/portfolio');
+});
 
 Route::get('/about-us', function () {
     return view('pages/about-us');
@@ -76,44 +76,9 @@ Route::get('/life-lines-a-news-aggregation-app', function () {
 });
 
 
+// Route::get('/machine-learning', function () {
+//     return view('pages/work/machine-learning');
+// });
+
 Route::get('/contact', 'ContactController@contact');
 Route::post('/contact', 'ContactController@contactPost');
-
-Route::get('/', 'ContactController2@contact');
-Route::post('/', 'ContactController2@contactPost');
-
-Route::get('/frontend-development', 'ContactController3@contact');
-Route::post('/frontend-development', 'ContactController3@contactPost'); 
-
-Route::get('/backend-development', 'ContactController4@contact');
-Route::post('/backend-development', 'ContactController4@contactPost'); 
-
-Route::get('/mobile', 'ContactController5@contact');
-Route::post('/mobile', 'ContactController5@contactPost'); 
-
-Route::get('/seo', 'ContactController6@contact');
-Route::post('/seo', 'ContactController6@contactPost'); 
-
-Route::get('/ppc', 'ContactController7@contact');
-Route::post('/ppc', 'ContactController7@contactPost'); 
-
-Route::get('/gfa', 'ContactController8@contact');
-Route::post('/gfa', 'ContactController8@contactPost'); 
-
-Route::get('/smm', 'ContactController9@contact');
-Route::post('/smm', 'ContactController9@contactPost'); 
-
-Route::get('/cm', 'ContactController10@contact');
-Route::post('/cm', 'ContactController10@contactPost'); 
-
-Route::get('/wd', 'ContactController11@contact');
-Route::post('/wd', 'ContactController11@contactPost'); 
-
-Route::get('/portfolio', 'ContactController12@contact');
-Route::post('/portfolio', 'ContactController12@contactPost'); 
-
-Route::get('/about', 'ContactController13@contact');
-Route::post('/about', 'ContactController13@contactPost');
-
-Route::get('/case', 'ContactController14@contact');
-Route::post('/case', 'ContactController14@contactPost');
