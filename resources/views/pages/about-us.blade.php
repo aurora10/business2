@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="row mb-big">
 			<div class="col-md-10 col-md-offset-1">
-				<div class="textbox text-center big"><p>Marketorix Technologies is providing custom software solutions to businesses that need cutting edge technology solutions. Our core values are quality services, transparent pricing and effective communication.</p>
+				<div class="textbox text-center big"><p>Marketorix Media Solutions is providing custom software solutions to businesses that need cutting edge technology solutions. Our core values are quality services, transparent pricing and effective communication.</p>
 </div>
 			</div>
 		</div>

@@ -14,25 +14,25 @@
 
 	<title>Custom Software Development | Marketorix Software</title>
 	<meta name="keywords" content="Custom Software Development Services, custom software, software development services, custom software development firm, software development outsourcing" />
-	<meta name="description" content="Marketorix Technologies is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
+	<meta name="description" content="Marketorix Media Solutions is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
 
 	<link rel="canonical" href="index.html" />
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Custom Software Development Services | Marketorix Technologies" />
-	<meta property="og:description" content="Marketorix Technologies is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
+	<meta property="og:title" content="Custom Software Development Services | Marketorix Media Solutions" />
+	<meta property="og:description" content="Marketorix Media Solutions is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
 	<meta property="og:url" content="index.html" />
 
-	<meta property="og:site_name" content="Marketorix Technologies" />
+	<meta property="og:site_name" content="Marketorix Media Solutions" />
 
 
 	<meta name="twitter:card" content="summary_large_image"/>
 
-	<meta name="twitter:domain" content="Marketorix Technologies"/>
+	<meta name="twitter:domain" content="Marketorix Media Solutions"/>
 
-	<meta name="twitter:title" content="Custom Software Development Services | Marketorix Technologies" />
-	<meta name="twitter:description" content="Marketorix Technologies is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
+	<meta name="twitter:title" content="Custom Software Development Services | Marketorix Media Solutions" />
+	<meta name="twitter:description" content="Marketorix Media Solutions is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
 
 
 	<script src="web/assets/js/jquery.min.js"></script>

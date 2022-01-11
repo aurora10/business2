@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row content-section">
 	<div class="col-sm-3 mb-big-xs">
-	<div class="footer-logo"><a  title="Home"  class=""  href="index.html"><img class="" src="{{asset('files/user/SVG.svg')}}" alt="Home" /></a></div>
+	<div class="footer-logo"><a  title="Home"  class=""  href="{{URL::to('/')}}"><img class="" src="{{asset('files/user/SVG.svg')}}" alt="Home" /></a></div>
 	<h6 class="mb-half">Social Media</h6>
 	<div class="social-block">
 		<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>
@@ -13,7 +13,7 @@
 
 <div class="col-sm-4 mb-big-xs">
 	<h5>Contact Details</h5>
-	<div class="phone-block"><a   class=""  href="tel:+1-512-782-9977"><span class="fa fa-phone"></span>+1-512-782-9977</a></div>
+	<div class="phone-block"><a   class=""  href="tel:+32-465-811-031"><span class="fa fa-phone"></span>+32-465-811-031</a></div>
 	<div class="phone-block"><a   class=""  href="mailto:sales@Marketorixtech.com"><span class="fa fa-envelope"></span>sales@marketorix.com</a></div>
 </div>
 
@@ -37,7 +37,7 @@
 
 <div class="sep-white" ></div>
 	<div class="footer-bottom-section" >
-	<div class="small" >&copy; MARKETORIX TECHNOLOGIES BV., 2018-2022. All rights reserved.</div>
+	<div class="small" >&copy; MMS BV., 2018-2022. All rights reserved.</div>
 
 </div>
 

@@ -69,7 +69,7 @@
 		$searchControl.removeClass("expanded");
 	});
 </script>
-					<div class="phone-block"><a   class=""  href="tel:+1-512-782-9977"><span class="fa fa-phone"></span>+1-512-782-9977</a></div>
+					<div class="phone-block"><a   class=""  href="tel:+32-465-811-031"><span class="fa fa-phone"></span>+32-465-811-031</a></div>
 					<div class="social-block">
 						<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>
 						<a   title="Facebook" class=""  target="_blank"  href=""><span class="fa fa-facebook-square"></span></a>

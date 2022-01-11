@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="col-md-11 col-md-offset-0 col-sm-10 col-sm-offset-1">
 				<h1>We Build Better Apps</h1>
-				<div class="textbox big">A full-cycle software development company with focus on speed and quality. <br>We give our customers an unfair advantage.</div>
+				<div class="textbox big">We create websites, web-apps </br>and other software solutions of any complexity  with focus on speed and quality</div>
 				<div><a   class="btn btn-white"  href="{{url('/portfolio')}}">See Case Studies</a></div>
 			</div>
 
@@ -224,7 +224,7 @@
 		<h2 class="text-center mb-big">About Us</h2>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-				<div class="textbox big text-center"><p>Marketorix Technologies is providing custom software development and online marketing services to businesses who need cutting edge technology and great customer experience.
+				<div class="textbox big text-center"><p>Marketorix Media Solutions is providing custom software development and online marketing services to businesses who need cutting edge technology and great customer experience.
 Our core values are <br>high quality, transparency and effective communication.
 </p>
 </div>
@@ -257,7 +257,7 @@ Our core values are <br>high quality, transparency and effective communication.
 	<h4 class="text-center">Belgium Office </h4>
 	<div class="row mb-big">   
 		<div class="col-md-5 col-md-offset-1 col-sm-6 mb-big-xs">
-			<div class="textbox">  Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Technologies is a trusted vendor.</div>
+			<div class="textbox">  Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions is a trusted vendor.</div>
 		</div>
 		<div class="col-md-5 col-sm-6 form-contact-block">
 			<address>
