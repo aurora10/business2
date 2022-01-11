@@ -266,7 +266,7 @@ Our core values are <br>high quality, transparency and effective communication.
 			</address>
 			<div class="contact-block">
 				<span class="fa fa-phone"></span>
-				<a   class=""  href="tel:+1-512-782-9977">+1-512-782-9977</a>
+				<a   class=""  href="tel:+1-512-782-9977">+32-465-811-031</a>
 			</div>
 			<div class="contact-block">
 				<span class="fa fa-envelope"></span>
