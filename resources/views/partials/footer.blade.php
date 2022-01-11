@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row content-section">
 	<div class="col-sm-3 mb-big-xs">
-	<div class="footer-logo"><a  title="Home"  class=""  href="index.html"><img class="" src="files/user/bwt_logo_left-white-(1).svg" alt="Home" /></a></div>
+	<div class="footer-logo"><a  title="Home"  class=""  href="index.html"><img class="" src="{{asset('files/user/SVG.svg')}}" alt="Home" /></a></div>
 	<h6 class="mb-half">Social Media</h6>
 	<div class="social-block">
 		<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>

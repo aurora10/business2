@@ -34,8 +34,8 @@
 	<li id="tab66" role="presentation" class="active">
 		<a href="#tab-panel66" aria-controls="tab-panel66" role="tab" data-toggle="tab">
 			
-	<div class="icon-block experience18-icon">
-		<img src="files/content/icons/i-exp-lines-18.svg" alt="experience18-icon" />
+	<div class="icon-block ">
+		<img src="files/content/icons/trophy.png" alt="experience18-icon" style="width: 60px"/>
 	</div>
 	
 			<h6>Experience</h6>
@@ -46,10 +46,10 @@
 		<a href="#tab-panel67" aria-controls="tab-panel67" role="tab" data-toggle="tab">
 			
 	<div class="icon-block retention-icon">
-		<img src="files/content/icons/i-retention-lines.svg" alt="retention-icon" />
+		<img src="files/content/icons/globe-grid.png" alt="retention-icon" style="width: 60px"/>
 	</div>
 	
-			<h6>Retention Rate</h6>
+			<h6>Our value</h6>
 		</a>
 	</li>
 	
@@ -57,10 +57,10 @@
 		<a href="#tab-panel68" aria-controls="tab-panel68" role="tab" data-toggle="tab">
 			
 	<div class="icon-block enterprise-icon">
-		<img src="files/content/icons/i-enterprise-lines.svg" alt="enterprise-icon" />
+		<img src="files/content/icons/increase.png" alt="enterprise-icon" style="width: 60px" />
 	</div>
 	
-			<h6>Enterprise Oriented</h6>
+			<h6>Your success</h6>
 		</a>
 	</li>
 	
@@ -68,10 +68,10 @@
 		<a href="#tab-panel69" aria-controls="tab-panel69" role="tab" data-toggle="tab">
 			
 	<div class="icon-block competence-icon">
-		<img src="files/content/icons/i-competence-lines.svg" alt="competence-icon" />
+		<img src="files/content/icons/donut-chart.png" alt="competence-icon" style="width: 60px" />
 	</div>
 	
-			<h6>Competence</h6>
+			<h6>Our focus</h6>
 		</a>
 	</li>
 	
@@ -79,29 +79,29 @@
 					<div class="tab-content">
 												
 <div role="tabpanel" class="tab-pane fade in active" id="tab-panel66" aria-labelledby="tab66">
-	<h4>We've been in software development since 2003</h4>
-	<div class="textbox medium"><p>For nearly two decades, BWT has been helping customers from the USA and Europe bring their ideas to life, starting with simple mobile apps all the way to multifunctional corporate portals. All this time, we&#39;ve been accumulating professional experience, which now allows us to solve your tasks ever faster and more effectively.</p>
+	<h4>Marketorix Media Solutions is reliable partner</h4>
+	<div class="textbox medium"><p>We work with customers all over the world and have accumulated professional experience that helps us build your software faster and better. Our developers have brilliant technical and soft skills, great attitude, ethical values and high English proficiency. </p>
 </div>
 </div>
 
 						
 <div role="tabpanel" class="tab-pane fade " id="tab-panel67" aria-labelledby="tab67">
-	<h4>Over 90% of our customers have worked with us before</h4>
-	<div class="textbox medium"><p>We value long-lasting business relationships with our clients. By providing high quality service we earn our clients&#39; trust that results in decades of fruitful cooperation.</p>
+	<h4>Our goal to build the best software your business needs</h4>
+	<div class="textbox medium"><p>Putting together a great team to build a great product takes substantial amounts of time and money. We take this load off your shoulders by providing a cost-effective alternative to hiring in-house developers.</p>
 </div>
 </div>
 
 						
 <div role="tabpanel" class="tab-pane fade " id="tab-panel68" aria-labelledby="tab68">
-	<h4>We specialise in complex business solutions for enterprises</h4>
-	<div class="textbox medium"><p>Through our work with large businesses, we have gained important insight into complex processes specific to enterprises. This not only allows us to develop products more efficiently, but also understand our customers on a deeper level and offer unique solutions to their problems.</p>
+	<h4>Our team is committed to your success</h4>
+	<div class="textbox medium"><p>We use latest web development technologies and integrate innovations for you to stand out of competition. We quickly solve problems that arise during the development process.</p>
 </div>
 </div>
 
 						
 <div role="tabpanel" class="tab-pane fade " id="tab-panel69" aria-labelledby="tab69">
-	<h4>Do you dig technology? Speak the same language with us</h4>
-	<div class="textbox medium"><p>We have 90 highly qualified specialists in our company, two thirds of whom have eight or more years of work experience. Our developers&#39; professionalism is acknowledged in 138 Microsoft certificates. We are working with the most up-to-date technologies - Node.js, React Native and augmented reality. We practice an agile approach to development, including Scrum. Describe your project and receive an assessment within 24 hours.</p>
+	<h4>MMS is focused on performance and long-term cooperation</h4>
+	<div class="textbox medium"><p>  We want to become real partners with our customer. We go extra mile to make sure you are satisfied with final result. We do in-depth analysis of every business to ensure best software development services. </p>
 </div>
 </div>
 
@@ -184,7 +184,7 @@ New functionality can be added to the system post-launch with ease. We will disc
 
 
 
-<section class="bg-image-fixed overlay-color-pattern" style=" background-image:url(files/user/contact-us-overlay.jpg); ">
+<section class="bg-image-fixed overlay-color-pattern" style=" background-image:url(files/user/laptop.jpg); ">
 	<div class="overlay-color-dark content-section color-white">
 		<div class="container">
 			<div class="row">
