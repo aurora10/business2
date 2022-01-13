@@ -203,7 +203,7 @@
 <div id="quick-contact-app" class="form-wrap flex-form">
 	<a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
        <!--here  pass name of the view to the contact controller -->
-	<form name="frmQuickContact" method="POST" action="">
+	<form name="frmQuickContact" method="POST" action="contact">
 		
 	
 	@include('partials.form-under-page')

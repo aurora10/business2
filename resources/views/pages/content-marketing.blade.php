@@ -95,7 +95,7 @@
                                         @csrf
                                         <div style="display:none;" class="form_status alert mb"></div>
 
-  <                                      input type="hidden" name="phone_number" value=""/>
+                                           
                                         <input type="hidden" name="phone_extension" value=""/>
                                         <input type="hidden" name="phone_valid" value=""/>
 
