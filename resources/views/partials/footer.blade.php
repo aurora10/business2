@@ -5,9 +5,9 @@
 	<div class="footer-logo"><a  title="Home"  class=""  href="{{URL::to('/')}}"><img class="" src="{{asset('files/user/SVG.svg')}}" alt="Home" /></a></div>
 	<h6 class="mb-half">Social Media</h6>
 	<div class="social-block">
-		<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>
-		<a   title="Facebook" class=""  target="_blank"  href=""><span class="fa fa-facebook-square"></span></a>
-		<a   title="YouTube" class=""  target="_blank"  href=""><span class="fa fa-youtube"></span></a>
+						<a   title="LinkedIn" class=""  target="_blank"  href="https://www.linkedin.com/company/75005028"><span class="fa fa-linkedin-square"></span></a>
+						<a   title="Facebook" class=""  target="_blank"  href="https://www.facebook.com/Marketorix-107716277756745/"><span class="fa fa-facebook-square"></span></a>
+						<a   title="YouTube" class=""  target="_blank"  href="https://www.youtube.com/channel/UCYQq1Zx8M8KhDDtlOiZzBHw"><span class="fa fa-youtube"></span></a>
 	</div>
 </div>
 

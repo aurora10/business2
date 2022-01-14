@@ -71,9 +71,9 @@
 </script>
 					<div class="phone-block"><a   class=""  href="tel:+32-465-811-031"><span class="fa fa-phone"></span>+32-465-811-031</a></div>
 					<div class="social-block">
-						<a   title="LinkedIn" class=""  target="_blank"  href=""><span class="fa fa-linkedin-square"></span></a>
-						<a   title="Facebook" class=""  target="_blank"  href=""><span class="fa fa-facebook-square"></span></a>
-						<a   title="YouTube" class=""  target="_blank"  href=""><span class="fa fa-youtube"></span></a>
+						<a   title="LinkedIn" class=""  target="_blank"  href="https://www.linkedin.com/company/75005028"><span class="fa fa-linkedin-square"></span></a>
+						<a   title="Facebook" class=""  target="_blank"  href="https://www.facebook.com/Marketorix-107716277756745/"><span class="fa fa-facebook-square"></span></a>
+						<a   title="YouTube" class=""  target="_blank"  href="https://www.youtube.com/channel/UCYQq1Zx8M8KhDDtlOiZzBHw"><span class="fa fa-youtube"></span></a>
 					</div>
 				</div>
 			</div>
