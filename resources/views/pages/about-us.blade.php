@@ -1,11 +1,6 @@
 @include('partials.head')
-@if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
-          {{ session('success') }}  
-        </div>
-@endif
-<body>
-@include('partials.menu')
+
+
 
 <section class="internal-header bg-red-gradient  color-white" >
 	<div class="container">
@@ -30,75 +25,75 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="tabs-wrap benefits-tabs">
 					<ul class="nav nav-tabs" role="tablist">
-						
+
 	<li id="tab66" role="presentation" class="active">
 		<a href="#tab-panel66" aria-controls="tab-panel66" role="tab" data-toggle="tab">
-			
+
 	<div class="icon-block ">
 		<img src="files/content/icons/trophy.png" alt="experience18-icon" style="width: 60px"/>
 	</div>
-	
+
 			<h6>Experience</h6>
 		</a>
 	</li>
-	
+
 	<li id="tab67" role="presentation" >
 		<a href="#tab-panel67" aria-controls="tab-panel67" role="tab" data-toggle="tab">
-			
+
 	<div class="icon-block retention-icon">
 		<img src="files/content/icons/globe-grid.png" alt="retention-icon" style="width: 60px"/>
 	</div>
-	
+
 			<h6>Our value</h6>
 		</a>
 	</li>
-	
+
 	<li id="tab68" role="presentation" >
 		<a href="#tab-panel68" aria-controls="tab-panel68" role="tab" data-toggle="tab">
-			
+
 	<div class="icon-block enterprise-icon">
 		<img src="files/content/icons/increase.png" alt="enterprise-icon" style="width: 60px" />
 	</div>
-	
+
 			<h6>Your success</h6>
 		</a>
 	</li>
-	
+
 	<li id="tab69" role="presentation" >
 		<a href="#tab-panel69" aria-controls="tab-panel69" role="tab" data-toggle="tab">
-			
+
 	<div class="icon-block competence-icon">
 		<img src="files/content/icons/donut-chart.png" alt="competence-icon" style="width: 60px" />
 	</div>
-	
+
 			<h6>Our focus</h6>
 		</a>
 	</li>
-	
+
 					</ul>
 					<div class="tab-content">
-												
+
 <div role="tabpanel" class="tab-pane fade in active" id="tab-panel66" aria-labelledby="tab66">
 	<h4>Marketorix Media Solutions is reliable partner</h4>
 	<div class="textbox medium"><p>We work with customers all over the world and have accumulated professional experience that helps us build your software faster and better. Our developers have brilliant technical and soft skills, great attitude, ethical values and high English proficiency. </p>
 </div>
 </div>
 
-						
+
 <div role="tabpanel" class="tab-pane fade " id="tab-panel67" aria-labelledby="tab67">
 	<h4>Our goal to build the best software your business needs</h4>
 	<div class="textbox medium"><p>Putting together a great team to build a great product takes substantial amounts of time and money. We take this load off your shoulders by providing a cost-effective alternative to hiring in-house developers.</p>
 </div>
 </div>
 
-						
+
 <div role="tabpanel" class="tab-pane fade " id="tab-panel68" aria-labelledby="tab68">
 	<h4>Our team is committed to your success</h4>
 	<div class="textbox medium"><p>We use latest web development technologies and integrate innovations for you to stand out of competition. We quickly solve problems that arise during the development process.</p>
 </div>
 </div>
 
-						
+
 <div role="tabpanel" class="tab-pane fade " id="tab-panel69" aria-labelledby="tab69">
 	<h4>MMS is focused on performance and long-term cooperation</h4>
 	<div class="textbox medium"><p>  We want to become real partners with our customer. We go extra mile to make sure you are satisfied with final result. We do in-depth analysis of every business to ensure best software development services. </p>
@@ -203,7 +198,7 @@ New functionality can be added to the system post-launch with ease. We will disc
 <div id="quick-contact-app" class="form-wrap flex-form">
 	<a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
 
-	<form name="frmQuickContact" method="POST" action="about">
+	<form name="frmQuickContact" method="POST" action="contact">
 		@csrf
 		<div style="display:none;" class="form_status alert mb"></div>
 
@@ -211,7 +206,7 @@ New functionality can be added to the system post-launch with ease. We will disc
 		<input type="hidden" name="phone_extension" value=""/>
 		<input type="hidden" name="phone_valid" value=""/>
 
-		
+
 		<div class="row mb">
 				<div class="col-sm-6 mb-big-xs col-xs-12">
 					<div class="form-group mb embed-label">
@@ -234,7 +229,7 @@ New functionality can be added to the system post-launch with ease. We will disc
 					</div>
 				</div>
 			</div>
-		
+
 
 		<div class="text-right">
 			<button class="btn btn-default frm_submit_btn" type="submit"><span>Submit</span></button>

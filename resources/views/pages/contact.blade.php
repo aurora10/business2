@@ -1,11 +1,6 @@
-@if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
-          {{ session('success') }}  
-        </div>
-@endif
+
 @include('partials.head')
-<body>
-@include('partials.menu')
+
 
 <section class="internal-header bg-red-gradient  color-white">
 	<div class="container">
@@ -17,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-6 mb-big-sm">
 	<h2>Our Office</h2>
-	<div class="textbox big">Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions has become a trusted vendor for many partners it has been working with for more than 10 years.</div>
+	<div class="textbox big">Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions has become a trusted vendor for many partners.</div>
 	<div class="form-contact-block big">
 		<address>
 			<span class="fa fa-building"></span>

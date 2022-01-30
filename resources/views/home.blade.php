@@ -1,21 +1,16 @@
-@if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
-          {{ session('success') }}  
-        </div>
-@endif
+
 @include('partials.head')
 
-<body>
-@include('partials.menu')
+
 
 
 
 
 	<section class="masthead-section bg-image-cover overlay-color-dark color-white " style=" background-image:url(files/user/kaleidico-small-unsplash.jpg); ">
-	
-	
+
+
 	<div class="masthead-inner">
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11 col-md-offset-0 col-sm-10 col-sm-offset-1">
@@ -28,9 +23,9 @@
 
 
 		</div>
-		
+
 	</div>
-	
+
 </div>
 
 <div class="clients-logos-section overlay-color-dark">
@@ -124,7 +119,10 @@
 
 		<div class="tech-listing">
 
-
+//                 <div class="item">
+// 					<img alt="React JS" src="files/coretechnologies/django-python.png" style="width:50px"/>
+// 					<div>Python Django</div>
+// 				</div>
 
 				<div class="item">
 					<img alt="React JS" src="files/coretechnologies/i-tech-react.png" />
@@ -255,7 +253,7 @@ Our core values are <br>high quality, transparency and effective communication.
 
 <div role="tabpanel" class="tab-pane fade in active" id="tab-panel24" aria-labelledby="tab24">
 	<h4 class="text-center">Belgium Office </h4>
-	<div class="row mb-big">   
+	<div class="row mb-big">
 		<div class="col-md-5 col-md-offset-1 col-sm-6 mb-big-xs">
 			<div class="textbox">  Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions is a trusted vendor.</div>
 		</div>
@@ -283,7 +281,7 @@ Our core values are <br>high quality, transparency and effective communication.
 
 <div id="quick-contact-app" class="form-wrap flex-form">
 	<a data-skip-hash="true" class="anchor-link" name="quick_contact_app_form"></a>
-	
+
 	<form  method="POST" action="contact">
 	@csrf
 		<div style="display:none;" class="form_status alert mb"></div>
@@ -291,17 +289,17 @@ Our core values are <br>high quality, transparency and effective communication.
 		<div class="col-sm-6 mb-big-xs col-xs-12">
 
 		   <div class="form-group mb embed-label">
-						
+
 				<label for="email" >Email address</label>
-                <input name="email" type="email" class="form-control" id="email" 
+                <input name="email" type="email" class="form-control" id="email"
                     >
                 <span class="text-danger">{{ $errors->first('email') }}</span>
 			</div>
 
 			<div class="form-group mb embed-label">
-						
+
 				<label for="name" >Name</label>
-                <input name="name" type="text" class="form-control" id="name" 
+                <input name="name" type="text" class="form-control" id="name"
                     >
                 <span class="text-danger">{{ $errors->first('name') }}</span>
 			</div>
@@ -312,14 +310,14 @@ Our core values are <br>high quality, transparency and effective communication.
 					</div>
 			</div>
             <div class="form-group col-sm-6 col-xs-12 stretch-block">
-                
+
 				<div class="form-group mb embed-label textarea-block">
 						<textarea id="" name="comment" title="Message" class="form-control"></textarea>
 						<label for="fld_comments">Message*</label>
 					</div>
             </div>
 </div>
-			
+
 
 
 		<div  style="text-align: center !important;">

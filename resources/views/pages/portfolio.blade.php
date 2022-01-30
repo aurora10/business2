@@ -1,11 +1,6 @@
 @include('partials.head')
-@if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
-          {{ session('success') }}  
-        </div>
-@endif
-<body>
-@include('partials.menu')
+
+
 <section class="internal-header bg-red-gradient overlay-color-pattern color-white">
 	<div class="container">
 		<h1>Case Studies</h1>

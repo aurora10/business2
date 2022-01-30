@@ -1,12 +1,5 @@
 @include('partials.head')
-@if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
-          {{ session('success') }}  
-        </div>
-@endif
-<body>
-@include('partials.menu')
-    <a title="Scroll Up" aria-label="Scroll Up" class="affix-top" href="#top" id="scrollup" data-spy="affix" data-offset-top="101"><span class="fa fa-long-arrow-up"></span></a>
+
 
 
 

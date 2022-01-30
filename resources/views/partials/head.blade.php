@@ -13,6 +13,8 @@
 
 
 	<title>Custom Software Development | Marketorix Software</title>
+
+	<meta name="google-site-verification" content="lInYnaG8_NXbKDH0bhkrjTQLxrlOsyYYjz2uc8MEJtM" />
 	<meta name="keywords" content="Custom Software Development Services, custom software, software development services, custom software development firm, software development outsourcing" />
 	<meta name="description" content="Marketorix Media Solutions is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
 
@@ -44,13 +46,43 @@
 	<script src="web/assets/js/slick/slick.min.js"></script>
 	<script src="web/assets/js/utils3860.js?v=1"></script>
 	<script src="web/assets/js/main3860.js?v=1"></script>
-		
+
 	<link href="web/assets/css/fonts3860.css?v=1" rel="stylesheet" />
 	<link href="web/assets/css/theme3860.css?v=1" rel="stylesheet" />
 	<link href="web/assets/css/responsive3860.css?v=1" rel="stylesheet" />
 
 	<link href="web/assets/css/my.css" rel="stylesheet" />
-	
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KMS7X44');</script>
+    <!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N929SYXQV1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N929SYXQV1');
+</script>
 
 </head>
+
+@if(session('success'))
+        <div class="alert alert-success" style="text-align: center">
+          {{ session('success') }}
+        </div>
+@endif
+
+<body>
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMS7X44"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+@include('partials.menu')
