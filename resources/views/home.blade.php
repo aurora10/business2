@@ -119,10 +119,10 @@
 
 		<div class="tech-listing">
 
-//                 <div class="item">
+<!-- //                 <div class="item">
 // 					<img alt="React JS" src="files/coretechnologies/django-python.png" style="width:50px"/>
 // 					<div>Python Django</div>
-// 				</div>
+// 				</div> -->
 
 				<div class="item">
 					<img alt="React JS" src="files/coretechnologies/i-tech-react.png" />

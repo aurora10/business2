@@ -2,8 +2,7 @@
 
 
 
-<body>
-@include('partials.menu')
+
 
 <section class="internal-header bg-red-gradient overlay-color-pattern color-white">
 	<div class="container">
