@@ -69,9 +69,9 @@
 			<h3>Tech Stack</h3>
 		</header>
 		<ul>
-	<li><a href="frontend-development.html">Frontend</a></li>
-	<li><a href="backend-development.html">Backend</a></li>
-	<li><a href="mobile.html">Mobile</a></li>
+	<li><a href="{{url('/frontend-development')}}">Frontend</a></li>
+	<li><a href="{{url('/backend-development')}}">Backend</a></li>
+	<li><a href="{{url('/mobile')}}">Mobile</a></li>
 </ul>
 
 	</div>
@@ -83,9 +83,9 @@
 			<h3>Expertise</h3>
 		</header>
 		<ul>
-	<li><a href="computer-vision.html">React/VueJs Apps</a></li>
-	<li><a href="chat-apps.html">PHP/Laravel Apps</a></li>
-	<li><a href="health-and-fitness-apps.html">ReactNative/Ionic</a></li>
+	<li><a href="{{url('/frontend-development')}}">React/VueJs Apps</a></li>
+	<li><a href="{{url('/backend-development')}}">PHP/Laravel Apps</a></li>
+	<li><a href="{{url('/mobile')}}">ReactNative/Ionic</a></li>
 	<!-- <li><a href="enterprise-portals.html">Enterprise Portals</a></li> -->
 </ul>
 
@@ -98,9 +98,9 @@
 			<h3>Focus</h3>
 		</header>
 		<ul >
-	<li><a href="ai-and-machine-learning.html">Enterprise Portals</a></li>
-	<li><a href="architecture-and-cloud-engineering.html">Cloud Engineering</a></li>
-	<li><a href="mvp-and-startups.html">MVP &amp; Startups</a></li>
+	<li><a href="{{url('/backend-development')}}">Enterprise Portals</a></li>
+	<li><a href="{{url('/backend-development')}}">SaaS</a></li>
+	<li><a href="{{url('/backend-development')}}">MVP &amp; Startups</a></li>
 	<!-- <li><a href="business-automation.html">Business Automation</a></li> -->
 </ul>
 

@@ -67,6 +67,24 @@ Route::get('/privacy-policies', function () {
     return view('pages/policies');
 });
 
+Route::get('/landing-pages', function () {
+    return view('pages/landing-pages');
+});
+
+Route::get('/business-websites', function () {
+    return view('pages/business-websites');
+});
+
+Route::get('/e-commerce', function () {
+    return view('pages/e-commerce');
+});
+
+Route::get('/custom-cms', function () {
+    return view('pages/custom-cms');
+});
+
+
+
 Route::get('/machine-learning', function () {
     return view('pages/work/machine-learning');
 });
@@ -74,6 +92,7 @@ Route::get('/machine-learning', function () {
 Route::get('/life-lines-a-news-aggregation-app', function () {
     return view('pages/work/life-lines-a-news-aggregation-app');
 });
+
 
 
 // Route::get('/machine-learning', function () {

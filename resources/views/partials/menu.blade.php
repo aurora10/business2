@@ -88,7 +88,7 @@
 					<ul class="dropdown-menu" role="menu">
 
 				<li class="dropdown dropdown_split ">
-					<a  class="placeholder-item" href="javascript:void(0)">Tech Stack</a>
+					<a  class="placeholder-item" href="javascript:void(0)">Software Development</a>
 					<a href="javascript:void(0)" class="dropdown-toggle" role="button" aria-expanded="false"><span class="fa fa-angle-down"></span></a>
 					<ul class="dropdown-menu" role="menu">
 
@@ -102,22 +102,22 @@
 				</li>
 
 				<li class="dropdown dropdown_split ">
-					<a  class="placeholder-item" href="javascript:void(0)">Expertise</a>
+					<a  class="placeholder-item" href="javascript:void(0)">Wordpress</a>
 					<a href="javascript:void(0)" class="dropdown-toggle" role="button" aria-expanded="false"><span class="fa fa-angle-down"></span></a>
 					<ul class="dropdown-menu" role="menu">
 
-				<li class=""><a  class="" href="computer-vision.html">Computer vision</a></li>
+				<li class=""><a  class="" href="{{url('/landing-pages')}}">Landing Pages</a></li>
 
-				<li class=""><a  class="" href="chat-apps.html">Chat apps</a></li>
+				<li class=""><a  class="" href="{{url('/business-websites')}}">Business Websites</a></li>
 
-				<li class=""><a  class="" href="health-and-fitness-apps.html">Fitness apps</a></li>
+				<li class=""><a  class="" href="{{url('/e-commerce')}}">E-commerce</a></li>
 
-				<li class=""><a  class="" href="enterprise-portals.html">Enterprise portals</a></li>
+				<li class=""><a  class="" href="{{url('/custom-cms')}}">Custom CMS's</a></li>
 
 					</ul>
 				</li>
 
-				<li class="dropdown dropdown_split ">
+				<!-- <li class="dropdown dropdown_split ">
 					<a  class="placeholder-item" href="javascript:void(0)">Focus</a>
 					<a href="javascript:void(0)" class="dropdown-toggle" role="button" aria-expanded="false"><span class="fa fa-angle-down"></span></a>
 					<ul class="dropdown-menu" role="menu">
@@ -131,7 +131,7 @@
 				<li class=""><a  class="" href="business-automation.html">Business automation</a></li>
 
 					</ul>
-				</li>
+				</li> -->
 
 					</ul>
 				</li>

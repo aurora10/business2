@@ -114,13 +114,13 @@
 		<h2 class="text-center mb-big">How We Work</h2>
 		<div class="textbox"><div class="text-image-wrap align-left"><img class="" src="files/user/hww-1(1).png" alt="Project Kickoff and Discovery" /></div><h4>Project Kickoff and Discovery</h4>
 
-<p><strong>Project Plan</strong><br />
+<p><strong>We Talk Over Your Project Plan</strong><br />
 Already know what you are looking for? We will present you a Project Plan with our time and cost estimation.<br />
-<strong>Vision</strong><br />
-Got an idea but don&rsquo;t have a specification yet? We will consult you on the technology stack and system optimization to help mold your concept into a Vision.<br />
+<strong>We Talk Over Your Vision</strong><br />
+Got an idea but don&rsquo;t have a specification yet? We will consult you on the technology stack and system optimization to help mold your concept.<br />
 <strong>Consulting</strong><br />
 Not sure how to solve a problem? We will help you shape your idea into a concept that later will become a spectacular project.<br />
-<strong>Commercial offer</strong><br />
+<strong>Your Get Commercial offer</strong><br />
 Finally, we will send you a commercial offer including the system description, cost and time estimation, and development process details.</p>
 </div>
 	</div>
