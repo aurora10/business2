@@ -1,12 +1,12 @@
 
-        <section class="content-section bg-light-gray">
+<section class="content-section bg-light-gray">
 	<div class="container">
 		<h3 class="text-center mb-big">Completed Projects</h3>
 		<div class="textbox text-center h4-style"></div>
 		
 		<div class="specialty-related-projects-slider">
 			
-				<div class="item">
+				<!-- <div class="item">
 					<div class="image-block">
 						<img src="files/casestudies/4/activ5-small-pic.jpg" alt="Fitness App that Pairs with a Portable Custom Device" />
 					</div>
@@ -15,7 +15,7 @@
 						<a href="case-studies/activ5.html" class="more-link">Read More</a>
 					</div>
 					<a href="case-studies/activ5.html" title="Fitness App that Pairs with a Portable Custom Device" class="area-link"></a>
-				</div>
+				</div> -->
 				
 				<div class="item">
 					<div class="image-block">
@@ -45,9 +45,9 @@
 					</div>
 					<div class="content-block">
 						<h5>Mobile Banking App</h5>
-						<a href="case-studies/mobile-banking-app.html" class="more-link">Read More</a>
+						<a href="{{URL::to('/mobile-banking-app')}}" class="more-link">Read More</a>
 					</div>
-					<a href="case-studies/mobile-banking-app.html" title="Mobile Banking App" class="area-link"></a>
+					<a href="{{URL::to('/mobile-banking-app')}}" title="Mobile Banking App" class="area-link"></a>
 				</div>
 				
 		</div>

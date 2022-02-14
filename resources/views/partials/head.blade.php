@@ -23,7 +23,7 @@
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Custom Software Development Services | Marketorix Media Solutions" />
-	<meta property="og:description" content="Marketorix Media Solutions is a custom software development service provider. We focus on mobile app development, computer vision systems and machine learning applications." />
+	<meta property="og:description" content="Marketorix Media Solutions is a modern software development service provider. We focus on E-commerce, Website and Mobile App Development, CRM's, Portals and Other Enterprise Solutions." />
 	<meta property="og:url" content="index.html" />
 
 	<meta property="og:site_name" content="Marketorix Media Solutions" />
@@ -53,22 +53,14 @@
 
 	<link href="web/assets/css/my.css" rel="stylesheet" />
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KMS7X44');</script>
-    <!-- End Google Tag Manager -->
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N929SYXQV1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4VFXMD2TKZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-N929SYXQV1');
+  gtag('config', 'G-4VFXMD2TKZ');
 </script>
 
 </head>

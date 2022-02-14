@@ -93,6 +93,10 @@ Route::get('/life-lines-a-news-aggregation-app', function () {
     return view('pages/work/life-lines-a-news-aggregation-app');
 });
 
+Route::get('/mobile-banking-app', function () {
+    return view('pages/work/mobile-banking-app');
+});
+
 
 
 // Route::get('/machine-learning', function () {

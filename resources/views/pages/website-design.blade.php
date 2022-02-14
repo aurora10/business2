@@ -68,7 +68,7 @@
 
 
 
-        <section class="bg-image-fixed overlay-color-pattern" style=" background-image:url(files/user/contact-us-overlay.jpg); ">
+        <!-- <section class="bg-image-fixed overlay-color-pattern" style=" background-image:url(files/user/contact-us-overlay.jpg); ">
             <div class="overlay-color-dark content-section color-white">
                 <div class="container">
                     <div class="row">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
        
 
