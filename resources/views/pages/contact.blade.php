@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-6 mb-big-sm">
 	<h2>Our Office</h2>
-	<div class="textbox big">Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions has become a trusted vendor for many partners.</div>
+	<div class="textbox big">Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions is a trusted vendor for many partners.</div>
 	<div class="form-contact-block big">
 		<address>
 			<span class="fa fa-building"></span>
@@ -62,7 +62,7 @@ Nieuwpoort, 8620, BE</span>
 			</div>
 
             <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-                <label for="exampleInputPassword1">Comment</label>
+                <label for="exampleInputPassword1">Your Message:</label>
                 <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <!-- <span class="text-danger">{{ $errors->first('comment') }}</span> -->
             </div>

@@ -53,174 +53,177 @@
 							
 
 							<div class="textbox small">Machine learning is a field of software development that has become very popular not only among software developers themselves but among regular people too. Developing a machine learning model of your own requires a high level of knowledge and experience in the field. We have been a part of a project dedicated to making machine learning accessible to anyone.</div>
-							<a href="{{url('/machine-learning')}}" class="more-link">Read More</a>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Machine Learning Model Training System" href="{{url('/machine-learning')}}" class="area-link"></a>
+						<a title="Machine Learning Model Training System" href="" class=""></a>
 					</div>
 					
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/23/cs-life-lines-landing-min.jpg" alt="Life Lines &#8212; A News Aggregation App" />
+								<img src="files/casestudies/23/try3.jpg" alt="E-Roller & E-Bikes WebShop" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">Jun 2021</div>
-							<h5>Life Lines — A News Aggregation App</h5>
-
+							<h5>E-Roller & E-Bikes WebShop</h5>
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a href="case-studiesccc6.html?search=1&amp;search_category=4">Mobile</a>
+										<a href="">WordPress</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a href="case-studies8a5d.html?search=1&amp;search_keywords=iOS">iOS</a>
+										<a href="">WooCommerce</a>
 										
-										<a href="case-studiesca2d.html?search=1&amp;search_keywords=Android">Android</a>
+										<a href="">WebShop</a>
 										
 								</div>
 							
 
-							<div class="textbox small">With the huge amount of information coming our way everyday, it becomes increasingly difficult to keep up with the current events as news are often segmented into bite size pieces of content in order to increase the amount of clicks and visitors to a website. The amount of different news websites out there makes research even more difficult as you have to visit multiple websites to get the full story. Our client, a new local startup, has decided to put an end to this and create a platform which would automatically gather news articles from different websites and present them in one cohesive timeline with various filtering and search options.
+							<div class="textbox small">E-Commerce store built with WordPress CMS. WooCommerce shopping cart allows to create fast, secure and SEO optimized E-commerce solutions. It allows to accept wide variety of payment methods and plethora of other customizations. The only limit is your imagination.
 </div>
-							<a href="case-studies/life-lines-a-news-aggregation-app.html" class="more-link">Read More</a>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Life Lines &#8212; A News Aggregation App" href="{{url('/life-lines-a-news-aggregation-app')}}" class="area-link"></a>
+						<a title="" href="{{url('//airwheel.shop')}}" class="area-link"></a>
 					</div>
 					
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/22/social-media-caption-generation-app---landing.jpg" alt="Social Media Caption Generation AI" />
+								<img src="files/casestudies/22/try.jpeg" alt="ICT Consulting Services Webstie" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">May 2021</div>
-							<h5>Social Media Caption Generation AI</h5>
+							<h5>ICT Consulting Services Webstie</h5>
 
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a href="case-studiesa380.html?search=1&amp;search_category=6">AI</a>
+										<a href="">ReactJS</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a href="case-studiesc472.html?search=1&amp;search_keywords=Azure%20Computer%20Vision">Azure Computer Vision</a>
+										<a href="">PHP</a>
 										
 								</div>
 							
 
-							<div class="textbox small">We were tasked with the development of a system which would take an image as input and provide a social media caption as output. The text had to not only match the content of the image, but also be indistinguishable from that written by a human.</div>
-							<a href="case-studies/social-media-caption-generation-ai.html" class="more-link">Read More</a>
+							<div class="textbox small">IT Consultancy landing page does not have to look dry and boring. 
+We've built this site to showcase how IT consultancy could make their clients feel while they are working with them. We want our prospective customers to feel as though they will be playing in a sandbox full of toys they love! We would like to give your creative brain enough entertainment to spark your imagination and explore the options.
+</div>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Social Media Caption Generation AI" href="case-studies/social-media-caption-generation-ai.html" class="area-link"></a>
+						<a title="primetria.com " href="{{url('//primetria.com')}}" class="area-link"></a>
 					</div>
 					
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/21/landing-min.jpg" alt="AI-powered Digital Media Recommendation System" />
+								<img src="files/casestudies/21/try.jpeg" alt="Household Appliances Shop Site" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">Apr 2021</div>
-							<h5>AI-powered Digital Media Recommendation System</h5>
+							<h5>Household Appliances Shop Site</h5>
 
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a href="case-studiesa380.html?search=1&amp;search_category=6">AI</a>
+										<a href="">3D</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a href="case-studies4cfc.html?search=1&amp;search_keywords=OpenCV">OpenCV</a>
+										<a href="">VueJS</a>
 										
-										<a href="case-studiesac69.html?search=1&amp;search_keywords=Python">Python</a>
+										<a href="">Laravel</a>
 										
 								</div>
 							
 
-							<div class="textbox small">Our client is a production company which helps creators promote media content, like mobile and browser video games, attract more customers and generally increase its popularity. They asked us to develop a system for analysis of digital media, like a video game recording.</div>
-							<a href="case-studies/ai-powered-digital-media-recommendation-system.html" class="more-link">Read More</a>
+							<div class="textbox small">Wow site for a company that sells top household appliances has been designed with 3d modeling (cinema 4d), creating powerful look feel design, motion design, front-end, back-end – Laravel. The aim was to provide clients with all the practical information they need to know about what type of appliances and home gadgets fit their home.</div>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="AI-powered Digital Media Recommendation System" href="case-studies/ai-powered-digital-media-recommendation-system.html" class="area-link"></a>
+						<a title="Household Appliances Shop Site" href="{{url('//techenjoy.eu/')}}" class="area-link"></a>
 					</div>
 					
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/20/gtp-3-landing-min.jpg" alt="Marketing Content Generation System Using GPT-3" />
+								<img src="files/casestudies/20/try.jpeg" alt="corporate_site" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">Apr 2021</div>
-							<h5>Marketing Content Generation System Using GPT-3</h5>
+							<h5>Corporate Website</h5>
 
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a href="case-studiesa380.html?search=1&amp;search_category=6">AI</a>
+										<a href="">JavaScript</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a href="case-studies0652.html?search=1&amp;search_keywords=GPT%2D3">GPT-3</a>
+										<a href="">Laravel</a>
 										
 								</div>
 							
 
-							<div class="textbox small">Artificial intelligence systems have evolved to the point where they can work with natural language on mostly the same level as a human. The area of applications of such systems are endless. Anywhere from extracting customer sentiment from social media platforms to generating original content on a given topic - there are pretrained models that can do all that quickly and to a good quality.</div>
-							<a href="case-studies/marketing-content-generation-system-using-gpt-3.html" class="more-link">Read More</a>
+							<div class="textbox small">Your corporate website showcases the essence of your business, but has it grown stale? Are your customers not finding what they need? Our redesign services will revitalize your online presence and give your brand a fresh look that is easy to navigate and both mobile-friendly and desktop-ready.
+This software project was part of a new corporate site version for the Emgre company which has been done with full stack Javascript (React + Redux) and PHP on backend.
+</div>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Marketing Content Generation System Using GPT-3" href="case-studies/marketing-content-generation-system-using-gpt-3.html" class="area-link"></a>
+						<a title="" href="{{url('//emgre.com/')}}" class="area-link"></a>
 					</div>
 					
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/18/microsoftteams-image-(21).png" alt="Mobile Banking App" />
+								<img src="files/casestudies/18/try.jpeg " alt="Online Flower Delivery Store" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">Apr 2021</div>
-							<h5>Mobile Banking App</h5>
+							<h5>Online Flower Delivery Store</h5>
 
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a href="case-studiesccc6.html?search=1&amp;search_category=4">Mobile</a>
+										<a href="">Frondend</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a href="case-studiesca2d.html?search=1&amp;search_keywords=Android">Android</a>
+										<a href="">Backend</a>
 										
 								</div>
 							
 
-							<div class="textbox small">We were tasked with the development of an Android-based banking app for a local bank which would replace an already existing outdated app. One of the primary goals was to not only develop an app which would update the design and improve user experience, but to ensure a high level of security.</div>
-							<a href="case-studies/mobile-banking-app.html" class="more-link">Read More</a>
+							<div class="textbox small">Custom flower delivery and inventory management for the best customer experience possible. Wowbouquets is an order management system for flowers delivery. The mission of the project was to build an e-commerce shop that will be used as a tool for the business to operate and execute orders on daily basis. During the development the customer wanted to add a lot of extra features and options, because he found it to be motivated by daily demands of his business.</div>
+							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Mobile Banking App" href="case-studies/mobile-banking-app.html" class="area-link"></a>
+						<a title="Mobile Banking App" href="{{url('//wowbouquets.com')}}" class="area-link"></a>
 					</div>
 					
 					
