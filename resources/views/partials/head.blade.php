@@ -63,12 +63,22 @@
   gtag('config', 'G-4VFXMD2TKZ');
 </script>
 
+
 </head>
 
 @if(session('success'))
-        <div class="alert alert-success" style="text-align: center">
+        <div class="" style="text-align: center; background:#F2AF29;" id="success-alert">
+		
           {{ session('success') }}
         </div>
+		<script>
+$("#success-alert").fadeTo(4000, 500).slideUp(600, function(){
+    $("#success-alert").slideUp(600);
+});
+
+	
+</script>
+
 @endif
 
 <body>

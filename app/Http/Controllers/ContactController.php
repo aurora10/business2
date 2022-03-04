@@ -22,6 +22,8 @@ class ContactController extends Controller
                         'comment' => 'required'
                 ]);
        $uri = Route::current()->uri;
+
+
         Mail::send('pages.email', [
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
@@ -29,8 +31,8 @@ class ContactController extends Controller
                 'comment' => $request->get('comment'),
                 'uri' => $uri],
                 function ($message) {
-                        $message->from('r.zimerman@marketorix.be');
-                        $message->to('aurora10@gmail.com', 'Your Name')
+                        $message->from('sales@marketorix.com');
+                        $message->to('robert@marketorix.com', 'Your Name')
                                 ->subject('Your Website Contact Form');
         });
 
