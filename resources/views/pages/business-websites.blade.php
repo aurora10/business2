@@ -16,6 +16,8 @@
             </div>
         </section>
 
+        @include('partials.completed-projects-wd')
+
         <section class="content-section">
             <div class="container">
                 <h3 class="text-center">Sites We Can Build For Your Business</h3>

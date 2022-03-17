@@ -3,7 +3,7 @@
 
 <section class="internal-header bg-red-gradient overlay-color-pattern color-white">
 	<div class="container">
-		<h1>Case Studies</h1>
+		<h1>Work Samples</h1>
 	</div>
 </section>
 
@@ -21,41 +21,44 @@
 					<div class="item">
 						
 							<div class="image-block">
-								<img src="files/casestudies/26/firststepai-landing.png" alt="Machine Learning Model Training System" />
+								<img src="files/casestudies/26/shipped3.png" alt="Machine Learning Model Training System" />
 							</div>
 						
 						<div class="content-block">
 							<div class="date small">Nov 2021</div>
-							<h5>Machine Learning Model Training System</h5>
+							<h5>E-commerce Webshop</h5>
 
 							
 								<div class="project-link-block">
 									<span class="fa fa-bookmark"></span>
 									
-										<a >AI</a>
+										<a >Wordpress</a>
 										
 								</div>
 							
 								<div class="project-link-block mb">
 									<span class="fa fa-tag"></span>
 									
-										<a >AWS</a>
+										<a >WooCommerce</a>
 										
-										<a >Python</a>
+										<a >PHP</a>
 										
 										<a >JavaScript</a>
 										
 										<a >React</a>
 										
-										<a >Node.js</a>
+										
 										
 								</div>
 							
 
-							<div class="textbox small">Machine learning is a field of software development that has become very popular not only among software developers themselves but among regular people too. Developing a machine learning model of your own requires a high level of knowledge and experience in the field. We have been a part of a project dedicated to making machine learning accessible to anyone.</div>
+							<div class="textbox small">Host your own E-commerce webshop and know your data is safe and only you can access it. No monthly fees like Shopify!
+
+It offers you everything Shopify does, but on your private VPS server. You will pay only a fraction of what Shopify charges and keep full control over the look and feel of your shop.
+</div>
 							<a href="{{url('/contact')}}" class="more-link">More Info</a>
 						</div>
-						<a title="Machine Learning Model Training System" href="" class=""></a>
+						<a title="Machine Learning Model Training System" href="{{url('//shipped.ml')}}" class="area-link"></a>
 					</div>
 					
 					<div class="item">

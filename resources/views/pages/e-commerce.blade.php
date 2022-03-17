@@ -15,6 +15,8 @@
             </div>
         </section>
 
+        @include('partials.completed-projects-wd')
+
         <section class="content-section">
             <div class="container">
                 <h3 class="text-center">What we can create with WooCommerce</h3>

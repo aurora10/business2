@@ -166,7 +166,7 @@ Communication is key, and more and more services consider chats to be a staple f
 	</div>
 </section>
 
-<section class="content-section bg-light-gray">
+<!-- <section class="content-section bg-light-gray">
 	<div class="container">
 		<h3 class="text-center mb-big">See our work</h3>
 		<div class="textbox text-center h4-style"></div>
@@ -242,7 +242,9 @@ Communication is key, and more and more services consider chats to be a staple f
 		</div>
 	
 	</div>
-</section>
+</section> -->
+
+@include('partials.completed-projects-wd')
 
 
 </section>

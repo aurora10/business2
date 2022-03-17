@@ -11,8 +11,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 mb-big-sm">
-	<h2>Our Office</h2>
-	<div class="textbox big">Working on a diverse range of projects has proven our ability to meet time frames, budgets and deliver high quality solutions that satisfy clients&#39; needs. Marketorix Media Solutions is a trusted vendor for many partners.</div>
+	<h2>Our Location</h2>
+	<div class="textbox big">Marketorix Media Solutions has worked on a diverse range of projects and has proven an ability to meet time frames, budgets and deliver high quality solutions. We are a trusted vendor for many partners and strive to offer a perfect user experience.</div>
 	<div class="form-contact-block big">
 		<address>
 			<span class="fa fa-building"></span>

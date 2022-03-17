@@ -14,8 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11 col-md-offset-0 col-sm-10 col-sm-offset-1">
-				<h1>We Build Better Apps</h1>
-				<div class="textbox big">We create websites, web-apps </br>and other software solutions of any complexity  with focus on speed and quality</div>
+				<h1>Building Amazing Websites <br>& <br> Web-Apps</h1>
+				
+				<div class="textbox big">We customize and build websites, </br>web-apps and other software solutions of any complexity with focus on speed and quality</div>
 				<div><a   class="btn btn-white"  href="{{url('/portfolio')}}">See Case Studies</a></div>
 			</div>
 
@@ -28,7 +29,7 @@
 
 </div>
 
-<div class="clients-logos-section overlay-color-dark">
+<!-- <div class="clients-logos-section overlay-color-dark">
 	<div class="container">
 		<div>Trusted worldwide</div>
 
@@ -56,7 +57,7 @@
 		</div>
 
 	</div>
-</div>
+</div> -->
 
 </section>
 <section class="content-section bg-light-gray">
@@ -164,9 +165,9 @@
 		</div>
 	</div>
 </section>
-<section class="content-section overlay-color-pattern">
+<!-- <section class="content-section overlay-color-pattern">
 	<div class="container">
-		<h2 class="text-center mb-big">Recent Case Studies</h2>
+		<h2 class="text-center mb-big">Recent Projects</h2>
 
 		<div class="portfolio-listing">
 
@@ -213,9 +214,9 @@
 				</div>
 
 
-</section>
+</section> -->
 
-
+@include('partials.completed-projects-wd')
 
 <section class="content-section bg-red-gradient overlay-color-pattern color-white">
 	<div class="container">

@@ -19,35 +19,35 @@
 				
 				<div class="item">
 					<div class="image-block">
-						<img src="files/casestudies/9/event-management-system-landing-1.jpg" alt="Event Management System" />
+						<img src="files/casestudies/22/try2.jpg" alt="ICT Consulting" />
 					</div>
 					<div class="content-block">
-						<h5>Event Management System</h5>
-						<a href="case-studies/event-management-system.html" class="more-link">Read More</a>
+						<h5>ICT Consulting Company Website</h5>
+						<a href="{{url('/contact')}}" class="more-link">Read More</a>
 					</div>
-					<a href="case-studies/event-management-system.html" title="Event Management System" class="area-link"></a>
+					<a href="{{url('//primetria.com')}}" title="Event Management System" class="area-link"></a>
 				</div>
 				
 				<div class="item">
 					<div class="image-block">
-						<img src="files/casestudies/7/trash-landing4.jpg" alt="A Complex Uber-Like Ecosystem That Helps You Get Rid of Trash" />
+						<img src="files/casestudies/26/shipped4.png" alt="E-commerce Webshop" />
 					</div>
 					<div class="content-block">
-						<h5>A Complex Uber-Like Ecosystem That Helps You Get Rid of Trash</h5>
-						<a href="case-studies/trash-hauling-startup.html" class="more-link">Read More</a>
+						<h5>E-Commerce Webshop built on WooCommerce</h5>
+						<a href="{{url('/contact')}}" class="more-link">Read More</a>
 					</div>
-					<a href="case-studies/trash-hauling-startup.html" title="A Complex Uber-Like Ecosystem That Helps You Get Rid of Trash" class="area-link"></a>
+					<a href="{{url('//shipped.ml')}}" title="E-Commerce Webshop" class="area-link"></a>
 				</div>
 				
 				<div class="item">
 					<div class="image-block">
-						<img src="files/casestudies/18/microsoftteams-image-(21).png" alt="Mobile Banking App" />
+						<img src="files/casestudies/21/try1.jpg" alt="Brick and mortar" />
 					</div>
 					<div class="content-block">
-						<h5>Mobile Banking App</h5>
-						<a href="{{URL::to('/mobile-banking-app')}}" class="more-link">Read More</a>
+						<h5>Household Appliances Shop Site</h5>
+						<a href="{{url('/contact')}}" class="more-link">Read More</a>
 					</div>
-					<a href="{{URL::to('/mobile-banking-app')}}" title="Mobile Banking App" class="area-link"></a>
+					<a href="{{url('//techenjoy.eu/')}}" title="Store" class="area-link"></a>
 				</div>
 				
 		</div>
