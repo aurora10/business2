@@ -49,6 +49,17 @@
 					</div>
 					<a href="{{url('//techenjoy.eu/')}}" title="Store" class="area-link"></a>
 				</div>
+
+				<div class="item">
+					<div class="image-block">
+						<img src="files/casestudies/21/krypt.png" alt="Brick and mortar" />
+					</div>
+					<div class="content-block">
+						<h5>Blockchain App To Send Crypto Worldwide </h5>
+						<a href="{{url('/contact')}}" class="more-link">Read More</a>
+					</div>
+					<a href="{{url('//krypt.ga/')}}" title="Store" class="area-link"></a>
+				</div>
 				
 		</div>
 	

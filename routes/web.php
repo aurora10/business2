@@ -96,6 +96,19 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
     
     Route::get('/contact', 'ContactController@contact');
     Route::post('/contact', 'ContactController@contactPost');
-  
+
+    
+
+
   });
 
+  Route::get('/blog', function () {
+    return view('pages.blog.blog');
+});
+
+Route::get('/one', function () {
+    return view('pages.blog.one');
+});
+
+Route::get('/posts', 'PostController@index');
+Route::get('/{slug}', 'PostController@show');
