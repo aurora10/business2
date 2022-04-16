@@ -24,7 +24,7 @@
 	<li><a href="{{url('/about-us')}}">About us</a></li>
 	<li><a href="{{url('/portfolio')}}">Case Studies</a></li>
 	<li><a href="{{url('/portfolio')}}">Portfolio</a></li>
-	<li><a href="{{url('/blog')}}">Blog</a></li>
+	<li><a href="{{url('/posts')}}">Blog</a></li>
 	<li><a href="{{url('/contact')}}">Contact</a></li>
 	<li><a href="{{url('/privacy-policies')}}">Privacy Policy</a></li>
 </ul>
