@@ -592,7 +592,7 @@ function createDOMPurify() {
 
     /* Allow valid data-* attributes: At least one character after "-"
         (https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
-        XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and http://www.w3.org/TR/xml/#d0e804)
+        XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and https://www.w3.org/TR/xml/#d0e804)
         We don't need to check the value; it's always URI safe. */
     if (ALLOW_DATA_ATTR && DATA_ATTR$$1.test(lcName)) {
       // This attribute is safe
