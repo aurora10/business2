@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Route;
 
 use App\Post;
 
@@ -22,9 +23,23 @@ class PostController extends Controller
 
     public function show($slug)
     {
+        
         $post = Post::where('slug', $slug)
             ->firstOrFail();
-        //dd($post);
-        return view('pages.blog.show', compact('post'));
+
+        $socialShare = \Share::page(
+                `https://www.marketorix.com/posts/$post->slug`,
+                'null', ['class' => 'my-class', 'id' => 'my-id', 'title' => 'my-title', 'rel' => 'nofollow noopener noreferrer']
+            )
+            ->facebook()
+            ->twitter()
+            ->reddit()
+            ->linkedin()
+            ->whatsapp()
+            ->telegram();
+
+            
+        //dd($socialShare);
+        return view('pages.blog.show', compact('post', 'socialShare'));
     }
 }

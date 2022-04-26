@@ -102,11 +102,14 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
 
   });
 
-//   Route::get('/blog', function () {
-//     return view('pages.blog.blog');
-// });
+  Route::get('/one', function () {
+    return view('pages.blog.one');
+});
 
 
 
 Route::get('/posts', 'PostController@index');
 Route::get('/{slug}', 'PostController@show');
+
+
+//Route::get('/share-social', 'ShareSocialController@shareSocial');

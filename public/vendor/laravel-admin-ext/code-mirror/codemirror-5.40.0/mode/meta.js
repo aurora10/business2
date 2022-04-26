@@ -65,7 +65,7 @@
     {name: "HXML", mime: "text/x-hxml", mode: "haxe", ext: ["hxml"]},
     {name: "ASP.NET", mime: "application/x-aspx", mode: "htmlembedded", ext: ["aspx"], alias: ["asp", "aspx"]},
     {name: "HTML", mime: "text/html", mode: "htmlmixed", ext: ["html", "htm", "handlebars", "hbs"], alias: ["xhtml"]},
-    {name: "HTTP", mime: "message/http", mode: "http"},
+    {name: "HTTPS", mime: "message/https", mode: "https"},
     {name: "IDL", mime: "text/x-idl", mode: "idl", ext: ["pro"]},
     {name: "Pug", mime: "text/x-pug", mode: "pug", ext: ["jade", "pug"], alias: ["jade"]},
     {name: "Java", mime: "text/x-java", mode: "clike", ext: ["java"]},

@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="format-detection" content="telephone=no" />
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
 
     <link rel="icon" type="image/ico" href="files/settings/favicon.ico" />
@@ -52,13 +53,10 @@
 	<link href="web/assets/css/responsive3860.css?v=1" rel="stylesheet" />
 
 	
-	<!-- <link href="web/assets/css/font-awesome.min.css" rel="stylesheet" />
-	<link href="web/assets/css/fonts3860.css?v=1" rel="stylesheet" />
-	<link href="bundle/app.css" rel="stylesheet" />
-	<script src="bundle/app.js"></script> -->
+
+	
 	<link href="web/assets/css/my.css" rel="stylesheet" />
 	
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VFXMD2TKZ"></script>
 <script>
@@ -69,6 +67,8 @@
   gtag('config', 'G-4VFXMD2TKZ');
 </script>
 
+
+       
 
 </head>
 
