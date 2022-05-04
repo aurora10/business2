@@ -112,7 +112,7 @@
 					<div class="col-md-12">
 					 
 							<div class="textbox">
-								<img alt="" src="../files/blog/items/1.header-1140_320.jpg" />
+								<img alt="" src="{{ asset('/storage/'.$post->post_header_image) }}" />
 							</div>
 						
 
@@ -120,7 +120,41 @@
 							
                         {!!$post->body!!}
 
-				</div> 
+				       </div> 
+
+            @if($post->video_url)
+           <p align="center"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="{{$post->video_url}}" width="560"></iframe></p>
+            @endif
+            @if($post->post_image1)
+                    <p align="center"><img alt="" src="{{ asset('/storage/'.$post->post_image1) }}"   /></p>
+            @endif
+<br><br>
+
+                    <div id="blog_main_content_wrap" class="textbox mb">
+							
+                        {!!$post->body2!!}
+
+				    </div> 
+
+            @if($post->post_image2)
+                    <p align="center"><img alt="" src="{{ asset('/storage/'.$post->post_image2) }}" /></p>
+            @endif
+                    <br>
+           
+                    <div id="blog_main_content_wrap" class="textbox mb">
+							
+                        {!!$post->body3!!}
+
+				    </div> 
+
+
+
+                   
+
+
+
+                    
+
             
                 <h2>Work with us</h2>
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
+
 use App\Post;
 
 use Illuminate\Http\Request;
@@ -26,6 +27,8 @@ class PostController extends Controller
         
         $post = Post::where('slug', $slug)
             ->firstOrFail();
+
+            //dd($post);
 
         $socialShare = \Share::page(
                 `https://www.marketorix.com/posts/$post->slug`,

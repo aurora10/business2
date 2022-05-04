@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         HTMLMin\HTMLMin\HTMLMinServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
         
 
         /*
@@ -230,6 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class,
         'Share' => Jorenvh\Share\ShareFacade::class,
+        'Image' => Intervention\Image\Facades\Image::class,
    ]
     
 ];
