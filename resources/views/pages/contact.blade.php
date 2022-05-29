@@ -1,7 +1,11 @@
 
 @include('partials.head')
 
-
+{!! htmlScriptTagJsApi([
+            'action' => 'contact',
+            'callback_then' => 'callbackThen',
+            'callback_catch' => 'callbackCatch'
+]) !!}
 <section class="internal-header bg-red-gradient  color-white">
 	<div class="container">
 		<h1>Contact</h1>

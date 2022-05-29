@@ -67,11 +67,7 @@
   gtag('config', 'G-4VFXMD2TKZ');
 </script>
 
-{!! htmlScriptTagJsApi([
-            'action' => 'homepage',
-            'callback_then' => 'callbackThen',
-            'callback_catch' => 'callbackCatch'
-]) !!}
+
        
 
 </head>
