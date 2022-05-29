@@ -57,7 +57,7 @@
 	
 	<link href="web/assets/css/my.css" rel="stylesheet" />
 	
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics  -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VFXMD2TKZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
