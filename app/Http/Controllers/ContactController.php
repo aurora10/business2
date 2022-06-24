@@ -19,7 +19,9 @@ class ContactController extends Controller
                         'name' => 'required',
                         'email' => 'required|email',
                         
-                        'comment' => 'required'
+                        'comment' => 'required',
+                        //'g-recaptcha-response' => 'required|recaptchav3:register,0.5'
+                        
                 ]);
        $uri = Route::current()->uri;
 

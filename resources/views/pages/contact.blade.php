@@ -1,11 +1,9 @@
 
+
 @include('partials.head')
 
-{!! htmlScriptTagJsApi([
-            'action' => 'contact',
-            'callback_then' => 'callbackThen',
-            'callback_catch' => 'callbackCatch'
-]) !!}
+{!! RecaptchaV3::initJs() !!}
+
 <section class="internal-header bg-red-gradient  color-white">
 	<div class="container">
 		<h1>Contact</h1>
@@ -47,6 +45,7 @@ Nieuwpoort, 8620, BE</span>
 <!-- <div class="container"> -->
         
         <form name="frmQuickContact" method="POST" action="/contact">
+		{!! RecaptchaV3::field('/contact') !!}
             @csrf
             <div style="display:none;" class="form_status alert mb"></div>
 			<div class="form-group mb embed-label">
@@ -71,7 +70,9 @@ Nieuwpoort, 8620, BE</span>
                 <!-- <span class="text-danger">{{ $errors->first('comment') }}</span> -->
             </div>
 
-            <div class="text-right">
+
+            <div class="text-right"> 
+			
 			<button class="btn btn-default frm_submit_btn" type="submit"><span>Submit</span></button>
 			<button style="display:none;" type="button" class="btn btn-default frm_loading_btn" onClick="javascript:void(0)"><span>Processing</span><span class="fa fa-spinner fa-spin"></span></button>
 		</div>
