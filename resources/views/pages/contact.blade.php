@@ -2,7 +2,7 @@
 
 @include('partials.head')
 
-<!-- {!! RecaptchaV3::initJs() !!} -->
+
 
 <section class="internal-header bg-red-gradient  color-white">
 	<div class="container">
