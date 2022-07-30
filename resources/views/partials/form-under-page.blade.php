@@ -34,7 +34,7 @@
 			<button style="display:none;" type="button" class="btn btn-default frm_loading_btn" onClick="javascript:void(0)"><span>Processing</span><span class="fa fa-spinner fa-spin"></span></button>
 		
 
-			<div class="g-recaptcha" data-sitekey="6LfaYzMhAAAAAD7mSMpOB4mkYrKXXKFVICSfFbTv"></div>
+			<div class="g-recaptcha" data-sitekey="{{config('services.recapcha.key')}}"></div>
 			@if(Session::has('g-recaptcha-response'))
 			<p class="alert {{Session::get('alet-class', 'alert-info')}}">
 					{{Session::get('g-recaptcha-response')}}
