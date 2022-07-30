@@ -28,6 +28,17 @@
 
 
 		<div class="text-right">
+
+		
 			<button class="btn btn-default frm_submit_btn" type="submit"><span>Submit</span></button>
 			<button style="display:none;" type="button" class="btn btn-default frm_loading_btn" onClick="javascript:void(0)"><span>Processing</span><span class="fa fa-spinner fa-spin"></span></button>
+		
+
+			<div class="g-recaptcha" data-sitekey="6LeaGjMhAAAAAFqSJxUSk4Q2fyKs9lScYq65IhCw"></div>
+			@if(Session::has('g-recaptcha-response'))
+			<p class="alert {{Session::get('alet-class', 'alert-info')}}">
+					{{Session::get('g-recaptcha-response')}}
+			</p>
+			
+			@endif
 		</div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Route;
 use Illuminate\Http\Request;
 use Mail;
+use Session;
 
 class ContactController extends Controller
 {
@@ -20,11 +21,24 @@ class ContactController extends Controller
                         'email' => 'required|email',
                         
                         'comment' => 'required',
-                        //'g-recaptcha-response' => 'required|recaptchav3:register,0.5'
+                        'g-recaptcha-response' => function ($attribute, $value, $fail) {
+                                $secret_key = '6LeaGjMhAAAAADQV9XwsP6rF-aVBDGjzQ0UYdZwQ';
+                                $response = $value;
+                                $userIP = $_SERVER['REMOTE_ADDR'];
+                                $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret_key&response=$response&remoteip=$userIP";
+                                $response = \file_get_contents($url);
+                                $response = json_decode($response);
+                                
+                               if (!$response->success) {
+                                    Session::flash('g-recaptcha-response', 'Please check recapcha');
+                                    Session::flash('alert-class', 'alert-danger');
+                                    $fail($attribute.'Google recapcha failed');
+                               }
+                        }
                         
                 ]);
        $uri = Route::current()->uri;
-
+       
 
         Mail::send('pages.email', [
                 'name' => $request->get('name'),

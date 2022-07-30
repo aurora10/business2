@@ -66,7 +66,8 @@
 
   gtag('config', 'G-4VFXMD2TKZ');
 </script>
-
+<!-- google recapcha -->
+<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 
        
 
