@@ -22,13 +22,14 @@ class ContactController extends Controller
                         
                         'comment' => 'required',
                         'g-recaptcha-response' => function ($attribute, $value, $fail) {
-                                $secret_key = "{{config('services.recapcha.secret')}}";
+                                $secret_key = config('services.recapcha.secret');
+                                //dd($secret_key);
                                 $response = $value;
                                 $userIP = $_SERVER['REMOTE_ADDR'];
                                 $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret_key&response=$response&remoteip=$userIP";
                                 $response = \file_get_contents($url);
                                 $response = json_decode($response);
-                                
+                                //dd($response);
                                if (!$response->success) {
                                     Session::flash('g-recaptcha-response', 'Please check recapcha');
                                     Session::flash('alert-class', 'alert-danger');
