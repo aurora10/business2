@@ -73,7 +73,7 @@ Nieuwpoort, 8620, BE</span>
 
             <div class="text-right"> 
 
-			<div class="g-recaptcha" data-sitekey="6LeaGjMhAAAAAFqSJxUSk4Q2fyKs9lScYq65IhCw"></div>
+			<div class="g-recaptcha" data-sitekey="6LfaYzMhAAAAAD7mSMpOB4mkYrKXXKFVICSfFbTv"></div>
 			@if(Session::has('g-recaptcha-response'))
 			<p class="alert {{Session::get('alet-class', 'alert-info')}}">
 					{{Session::get('g-recaptcha-response')}}
