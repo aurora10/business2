@@ -22,7 +22,7 @@ class ContactController extends Controller
                         
                         'comment' => 'required',
                         'g-recaptcha-response' => function ($attribute, $value, $fail) {
-                                $secret_key = '6LeaGjMhAAAAADQV9XwsP6rF-aVBDGjzQ0UYdZwQ';
+                                $secret_key = '6LfaYzMhAAAAAKAJcO3dcYBZlI7J62oEXWC7UkrA';
                                 $response = $value;
                                 $userIP = $_SERVER['REMOTE_ADDR'];
                                 $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret_key&response=$response&remoteip=$userIP";
