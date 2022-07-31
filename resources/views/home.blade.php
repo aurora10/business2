@@ -319,7 +319,14 @@ Our core values are <br>high quality, transparency and effective communication.
             </div>
 </div>
 
-
+<div class="g-recaptcha" data-sitekey="{{config('services.recapcha.key')}}"></div>
+			@if(Session::has('g-recaptcha-response'))
+			<p class="alert {{Session::get('alet-class', 'alert-info')}}">
+					{{Session::get('g-recaptcha-response')}}
+			</p>
+			
+			@endif
+           <br/>
 
 		<div  style="text-align: center !important;">
 			<button class="btn btn-default frm_submit_btn" type="submit"><span>Submit</span></button>
