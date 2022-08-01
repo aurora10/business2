@@ -49,7 +49,7 @@ class ContactController extends Controller
                 'uri' => $uri],
                 function ($message) {
                         $message->from('sales@marketorix.com');
-                        $message->to('robert@marketorix.com', 'Your Name')
+                        $message->to('sales@marketorix.com', 'Your Name')
                                 ->subject('Your Website Contact Form');
         });
 
