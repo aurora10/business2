@@ -1,5 +1,7 @@
 <?php
 
+require_once("mna.php");
+
 use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware'=>'HtmlMinifier'], function(){ 
@@ -73,6 +75,10 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
     Route::get('/custom-cms', function () {
         return view('pages/custom-cms');
     });
+
+    
+    
+    
     
     
     

@@ -56,6 +56,9 @@
 
 	
 	<link href="web/assets/css/my.css" rel="stylesheet" />
+
+	<!-- google recapcha -->
+<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 	
     <!-- Global site tag (gtag.js) - Google Analytics  -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VFXMD2TKZ"></script>
@@ -66,8 +69,7 @@
 
   gtag('config', 'G-4VFXMD2TKZ');
 </script>
-<!-- google recapcha -->
-<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
+
 
        
 
