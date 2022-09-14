@@ -108,9 +108,9 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
 
   });
 
-  Route::get('/one', function () {
-    return view('pages.blog.one');
-});
+//   Route::get('/one', function () {
+//     return view('pages.blog.one');
+// });
 
 
 

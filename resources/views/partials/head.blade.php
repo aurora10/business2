@@ -13,18 +13,18 @@
     <link rel="icon" type="image/ico" href="files/settings/favicon.ico" />
 
 
-	<title>Custom Software Development | Marketorix Software</title>
+	<title>Best Web Development | Marketorix Software</title>
 
 	<meta name="google-site-verification" content="lInYnaG8_NXbKDH0bhkrjTQLxrlOsyYYjz2uc8MEJtM" />
-	<meta name="keywords" content="Custom Software Development Services, custom software, software development services, custom software development firm" />
-	<meta name="description" content="Marketorix Media Solutions is a web developmet service that realize your vision" />
+	<meta name="keywords" content="Best Software Solutions, custom software, software development services, custom software development firm" />
+	<meta name="description" content="Marketorix Media Solutions a web development company" />
 
 	<link rel="canonical" href="index.html" />
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Custom Software Development Services | Marketorix Media Solutions" />
-	<meta property="og:description" content="Marketorix Media Solutions is a modern software development service provider. We focus on E-commerce, Website and Mobile App Development, CRM's, Portals and Other Enterprise Solutions." />
+	<meta property="og:description" content="Marketorix Media Solutions. Latest web development technologies. We focus on E-commerce, Website and Mobile App Development, CRM's, Portals and Other Enterprise Solutions." />
 	<meta property="og:url" content="index.html" />
 
 	<meta property="og:site_name" content="Marketorix Media Solutions" />
